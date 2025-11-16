@@ -1,0 +1,82 @@
+# Legal and Ethical Guidelines
+
+## ⚖️ Legal Disclaimer
+
+This software is provided for educational purposes only. The developers are not responsible for any misuse of this tool. Users are solely responsible for complying with all applicable laws in their jurisdiction.
+
+## 📜 Permitted Uses
+
+### Legal Applications
+- Security research and education
+- Authorized penetration testing
+- Network security assessments
+- Academic coursework
+- Personal learning and development
+
+### Required Authorization
+- Written permission from network owner
+- Testing on your own networks
+- Controlled lab environments
+- Educational institutions with proper oversight
+
+## 🚫 Prohibited Uses
+
+### Illegal Activities
+- Unauthorized network access
+- Disrupting public or private networks
+- Eavesdropping on communications
+- Credential theft without consent
+- Any form of cybercrime
+
+### Ethical Violations
+- Testing without permission
+- Targeting networks you don't own
+- Causing service disruptions
+- Privacy violations
+
+## 🌍 Jurisdictional Considerations
+
+### United States
+- Computer Fraud and Abuse Act (CFAA)
+- Wiretap Act
+- State-specific computer crime laws
+
+### European Union
+- General Data Protection Regulation (GDPR)
+- Computer Misuse Act (UK)
+- Various national cybersecurity laws
+
+### Other Regions
+- Check local telecommunications laws
+- Consult legal counsel for specific jurisdictions
+
+## 🔒 Responsible Disclosure
+
+If vulnerabilities are discovered:
+1. Do not exploit beyond authorized scope
+2. Document findings thoroughly
+3. Report to appropriate parties
+4. Allow reasonable time for remediation
+5. Follow recognized disclosure frameworks
+
+## 📝 Compliance Checklist
+
+Before using this tool:
+- [ ] Obtain proper authorization
+- [ ] Understand applicable laws
+- [ ] Use in controlled environments
+- [ ] Document testing activities
+- [ ] Respect privacy rights
+- [ ] Follow ethical guidelines
+
+## 🆘 Getting Help
+
+If you have legal questions:
+- Consult with legal counsel
+- Contact cybersecurity legal experts
+- Review relevant case law
+- Join ethical hacking communities
+
+---
+
+**Remember**: Ethical behavior is the responsibility of the user, not the tool creator.

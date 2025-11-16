@@ -1,0 +1,74 @@
+# Setup Guide
+
+## Hardware Requirements
+
+### Essential Components
+- ESP8266 Development Board
+  - NodeMCU, Wemos D1 Mini, or similar
+  - Minimum: 4MB Flash recommended
+- USB Cable for programming and power
+- Computer with USB port
+
+### Optional Components
+- External antenna for better range
+- Battery pack for portable use
+- OLED display for status monitoring
+- Case/enclosure
+
+## Software Installation
+
+### 1. Arduino IDE Setup
+1. Download Arduino IDE from [arduino.cc](https://www.arduino.cc/)
+2. Install ESP8266 Board Support:
+   - File → Preferences
+   - Additional Boards Manager URLs:
+     ```
+     http://arduino.esp8266.com/stable/package_esp8266com_index.json
+     ```
+   - Tools → Board → Boards Manager → Search "ESP8266" → Install
+
+### 2. Library Installation
+- Sketch → Include Library → Manage Libraries
+- Install these libraries:
+  - ESP8266WiFi (usually included)
+  - DNSServer
+  - ESP8266WebServer
+
+### 3. Code Upload
+1. Connect ESP8266 via USB
+2. Select correct board and port
+3. Open `src/sketch_nov13a.ino`
+4. Click Upload
+
+## Configuration
+
+### Network Settings
+Default access point settings:
+- SSID: `Security_Scanner`
+- Password: `scan12345`
+- IP: `192.168.4.1`
+
+### Customization
+Edit `config.h` to change:
+- Default credentials
+- Attack timing intervals
+- Network parameters
+- UI settings
+
+## Verification
+
+After upload:
+1. Serial monitor should show startup messages
+2. "Security_Scanner" WiFi network should appear
+3. Web interface accessible at `http://192.168.4.1`
+
+## Troubleshooting
+
+### Common Issues
+- **Upload fails**: Check COM port and drivers
+- **Can't connect to AP**: Reset ESP8266
+- **Web interface not loading**: Clear browser cache
+- **Attacks not working**: Check target network selection
+
+### Serial Debug
+Open Serial Monitor at 115200 baud for debug information.
